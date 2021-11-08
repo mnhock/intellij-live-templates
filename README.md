@@ -11,3 +11,8 @@ You can assemble the templates manually on IntelliJ's **Settings > Editor > Live
 
 If you find any issues in any of the templates, you have a suggestion or request, you found a useful JetBrains support ticket, please create a GitHub issue in this project.
 
+## IntelliJ Live Templates for:
+
+* [JUnit][1]
+
+[1]: templates/junit.md
