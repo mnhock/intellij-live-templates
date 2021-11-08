@@ -37,7 +37,6 @@ void afterEach() {
 
 ## @BeforeAll and @AfterAll annotated methods
 
-
 ```java
 @org.junit.jupiter.api.BeforeAll
 static void beforeAll() {
@@ -54,5 +53,19 @@ static void afterAll() {
 
 ### General configuration
 - Abbreviation: *beforeAll*, *afterAll*
+- Scope: Java - declaration
+- Options enabled: Reformat according to style, Use static import if possible, Shorten FQ names
+
+## assertAll Assertion
+
+```java
+org.junit.jupiter.api.Assertions.assertAll(
+    () -> org.junit.jupiter.api.Assertions.assertEquals("",  $code$),
+    () -> org.junit.jupiter.api.Assertions.assertEquals("", "")
+);
+```
+
+### General configuration
+- Abbreviation: *assertAll*
 - Scope: Java - declaration
 - Options enabled: Reformat according to style, Use static import if possible, Shorten FQ names
