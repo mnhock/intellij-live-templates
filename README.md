@@ -14,5 +14,7 @@ If you find any issues in any of the templates, you have a suggestion or request
 ## IntelliJ Live Templates for:
 
 * [JUnit][1]
+* [Mockito][2]
 
 [1]: templates/junit.md
+[2]: templates/mockito.md
