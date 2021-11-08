@@ -1,6 +1,6 @@
-# IntelliJ Live templates
+# IntelliJ Live Templates
 
-This repository is a collection of my small Live Template for various Java libraries.
+This repository is a collection of small Live Templates for various Java libraries.
 
 ## How to add them?
 
