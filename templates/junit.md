@@ -9,8 +9,15 @@ void test$methodName$() {
 }
 ```
 
+```java
+@org.junit.jupiter.api.Test
+void should$methodName$() {
+    $code$
+}
+```
+
 ### General configuration
-- Abbreviation: *test*
+- Abbreviation: *test*, *should*
 - Scope: Java - declaration
 - Options enabled: Reformat according to style, Use static import if possible, Shorten FQ names
 
